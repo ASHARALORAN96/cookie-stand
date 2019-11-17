@@ -1,5 +1,5 @@
 var storeArr =['6am: ','7am: ','8am: ','9am: ','10am: ','11am: ','12am: ','1pm: ','2pm: ','3pm: ','4pm: ','5pm: ','6pm: ','7pm: ','8pm: '];
-
+// seattle object
 var Seattle ={
  name: "seattle",
  min:23,
@@ -44,6 +44,7 @@ Seattle.getRandomCustemer();
 Seattle.getAvgCookies();
 Seattle.render();
 
+// tokyo object
 var tokyo ={
     name: "tokyo",
     min:3,
@@ -138,7 +139,7 @@ var dubai ={
    dubai.getRandomCustemer();
    dubai.getAvgCookies();
    dubai.render();
-
+// paris Object
  var paris ={
     name: "paris",
     min:20,
@@ -181,6 +182,7 @@ var dubai ={
     paris.getAvgCookies();
     paris.render();
 
+    // lima object
    var lima ={
     name: "lima",
     min:2,
