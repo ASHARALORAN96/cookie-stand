@@ -1,6 +1,6 @@
 var storeArr =['6am: ','7am: ','8am: ','9am: ','10am: ','11am: ','12am: ','1pm: ','2pm: ','3pm: ','4pm: ','5pm: ','6pm: ','7pm: ','8pm: '];
 // seattle object
-var Seattle ={
+var seattle ={
  name: "seattle",
  min:23,
  max:65,
@@ -40,9 +40,9 @@ render: function()  {
     
 }
 }
-Seattle.getRandomCustemer();
-Seattle.getAvgCookies();
-Seattle.render();
+seattle.getRandomCustemer();
+seattle.getAvgCookies();
+seattle.render();
 
 // tokyo object
 var tokyo ={
