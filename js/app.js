@@ -3,7 +3,7 @@
 var storeContener = document.getElementById('cookiesStore');
 var tableEl = document.createElement('table');
 storeContener.appendChild(tableEl);
-var hours = ['6am: ', '7am: ', '8am: ', '9am: ', '10am: ', '11am: ', '12am: ', '1pm: ', '2pm: ', '3pm: ', '4pm: ', '5pm: ', '6pm: ', '7pm: '];
+var hours = ['6am ', '7am  ', '8am  ', '9am  ', '10am  ', '11am  ', '12am  ', '1pm   ', '2pm   ', '3pm  ', '4pm  ', '5pm  ', '6pm  ', '7pm '];
 var stores = [];
 // console.log(stores);
 function Location(name,
