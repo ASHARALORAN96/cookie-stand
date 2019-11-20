@@ -72,10 +72,10 @@ Location.prototype.ShopRender = function () {
 // the event function
 function handleSubmit(event) {
     event.preventDefault();
-    var name = event.target.name.value;
-    var min = event.target.min.value;
-    var max = event.target.max.value;
-    var avgCookies = event.target.avgCookies.value;
+    var name =event.target.name.value;
+    var min =parseInt(event.target.min.value);
+    var max =parseInt(event.target.max.value);
+    var avgCookies =parseFloat(event.target.avgCookies.value);
     var newStores = new Location(name,min,max,avgCookies);
     var rowCount = tableEl.rows.length;
     tableEl.deleteRow(rowCount -1);

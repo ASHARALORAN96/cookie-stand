@@ -1,11 +1,101 @@
+html{
+    background: rgba(224, 201, 170, 0.884);
+}
 li {
 margin-left: 20px;
 margin-right: 20px;
 list-style-type: disc;
 
 }
+
 h1 {
 margin-left: 20px;
 margin-right: 20px;
 margin: 10px;
 }
+ nav ul li {
+     display: inline-block;
+     font-size: 20px;
+     font: bold;
+     color: rgb(63, 32, 32);
+     margin-bottom: 20px;
+ }
+  h1 {
+      font: bolder;
+      font-size: 100px;
+    }
+    h2 {
+        font-size: 40px;
+        font-style: normal;
+        
+    }
+    div {
+        /* position: fixed; */
+        list-style-position: inside;
+        text-align: center;
+        text-align: center;
+        font-style: oblique;
+        padding: 10px;
+        margin-top: 50px;
+        color: rgba(59, 34, 34, 0.877);
+    background-image: url(http://127.0.0.1:5500/img/cookiess.jpg);
+
+ }
+h3 {
+    color: white;
+    font: bolder;
+    font-style: unset;
+    font-size: 30px;
+    position: fixed;
+    background-color: rgba(100, 53, 53, 0.651);
+    padding: 30px;
+
+}
+img{
+    width: 50pc;
+    height: 30pc;
+    text-align: center;
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+#cookiesimage{
+    height: 5pc;
+    width: 5pc;
+    margin-right: 30px;
+}
+p {
+    text-align: center;
+    font: larger;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    
+}
+section {
+    list-style-type: disc;
+    float: left;
+    font-size: 20px;
+    font-style: oblique;
+    font: bolder;
+    border: rgb(70, 50, 50);
+    border-style: solid;
+    margin: 30px;
+    padding: 10px;
+    
+}
+
+        footer {
+            clear: both;
+                border: rgb(15, 15, 15);
+                border-style: solid;
+                text-align: center;
+                font-size: 15px;
+                margin: auto;
+                padding: 10px;
+                margin-top: 20px;
+                display: grid;
+        }
