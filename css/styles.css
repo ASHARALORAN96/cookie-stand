@@ -7,6 +7,12 @@ margin-right: 20px;
 list-style-type: disc;
 
 }
+nav{
+    border:rgb(53, 17, 17);
+    border-style: solid;
+    padding: 10px;
+    margin: 30px;
+}
 
 h1 {
 margin-left: 20px;
@@ -18,7 +24,7 @@ margin: 10px;
      font-size: 20px;
      font: bold;
      color: rgb(63, 32, 32);
-     margin-bottom: 20px;
+    
  }
   h1 {
       font: bolder;
