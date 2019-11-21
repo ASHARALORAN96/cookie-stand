@@ -7,7 +7,7 @@ var hours = ['6am ', '7am  ', '8am  ', '9am  ', '10am  ', '11am  ', '12am  ', '1
 var stores = [];
 
 // console.log(stores);
-function Location(name,
+function Shop(name,
     min,
     max,
     avgCookies) {
@@ -39,12 +39,12 @@ function headerRender() {
 
 }
 // random custemer
-Location.prototype.getRandomCustemer = function () {
+Shop.prototype.getRandomCustemer = function () {
     var randomCustemer = Math.floor(Math.random() * ((this.max) - (this.min)) + this.min);
     return randomCustemer;
 }
 // get Avg Cookies
-Location.prototype.getAvgCookies = function () {
+Shop.prototype.getAvgCookies = function () {
     for (var i = 0; i < hours.length; i++) {
         var maltiplyAvg = Math.ceil(this.avgCookies * this.getRandomCustemer());
         this.salesPerHour.push(maltiplyAvg);
@@ -53,7 +53,7 @@ Location.prototype.getAvgCookies = function () {
 
 }
 // Shop render 
-Location.prototype.ShopRender = function () {
+Shop.prototype.ShopRender = function () {
     var trEl = document.createElement('tr');
     tableEl.appendChild(trEl);
     var tdEl = document.createElement('td');
@@ -76,7 +76,7 @@ function handleSubmit(event) {
     var min =parseInt(event.target.min.value);
     var max =parseInt(event.target.max.value);
     var avgCookies =parseFloat(event.target.avgCookies.value);
-    var newStores = new Location(name,min,max,avgCookies);
+    var newStores = new Shop(name,min,max,avgCookies);
     var rowCount = tableEl.rows.length;
     tableEl.deleteRow(rowCount -1);
     newStores.ShopRender();
@@ -111,11 +111,11 @@ function renderFooter() {
 }
 // form handleSubmit
 
-var seattle = new Location('seattle', 23, 65, 6.3);
-var tokyo = new Location('tokyo', 3, 24, 1.2);
-var dubai = new Location('dubai', 11, 38, 3.7);
-var paris = new Location('paris', 20, 38, 2.3);
-var lima = new Location('lima', 2, 16, 4.6);
+var seattle = new Shop('seattle', 23, 65, 6.3);
+var tokyo = new Shop('tokyo', 3, 24, 1.2);
+var dubai = new Shop('dubai', 11, 38, 3.7);
+var paris = new Shop('paris', 20, 38, 2.3);
+var lima = new Shop('lima', 2, 16, 4.6);
 
 
 headerRender();
