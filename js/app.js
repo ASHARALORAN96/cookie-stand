@@ -85,7 +85,6 @@ function handleSubmit(event) {
 }
 var form = document.getElementById('newLocation');
 form.addEventListener("submit",handleSubmit);
-
 // footer
 function renderFooter() {
     var trEl = document.createElement('tr');

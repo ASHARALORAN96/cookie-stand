@@ -7,14 +7,17 @@ nav{
     margin-right: 20px;
     width: 10pc;
     border:rgb(92, 45, 45);
+    text-align: center ;
     border-style: solid;
-    padding: 10px;
+    padding: 20px;
     margin: 30px;
     display: inline-block;
     font-size: 30px;
     font-style: italic;
     font: bold;
     color: rgb(214, 140, 140);
+    border-radius: 40%;
+    background-image:url(http://127.0.0.1:5500/img/cookiess.jpg) ;
 }
 
 h1 {
