@@ -18,6 +18,8 @@ h1 {
 margin-left: 20px;
 margin-right: 20px;
 margin: 10px;
+font: bolder;
+font-size: 100px;
 }
  nav ul li {
      display: inline-block;
@@ -26,19 +28,13 @@ margin: 10px;
      color: rgb(63, 32, 32);
     
  }
-  h1 {
-      font: bolder;
-      font-size: 100px;
-    }
     h2 {
         font-size: 40px;
         font-style: normal;
         
     }
     div {
-        /* position: fixed; */
         list-style-position: inside;
-        text-align: center;
         text-align: center;
         font-style: oblique;
         padding: 10px;

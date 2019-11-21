@@ -3,7 +3,7 @@
 var storeContener = document.getElementById('cookiesStore');
 var tableEl = document.createElement('table');
 storeContener.appendChild(tableEl);
-var hours = ['6am ', '7am  ', '8am  ', '9am  ', '10am  ', '11am  ', '12am  ', '1pm   ', '2pm   ', '3pm  ', '4pm  ', '5pm  ', '6pm  ', '7pm '];
+var hours = ['6 AM ', '7 AM  ', '8 AM  ', '9AM  ', '10 AM  ', '11 AM ', '12 AM  ', '1 PM  ', '2 PM   ', '3 PM  ', '4 PM  ', '5 PM ', '6 PM  ', '7 PM '];
 var stores = [];
 
 // console.log(stores);
@@ -35,7 +35,7 @@ function headerRender() {
     }
     var thEl = document.createElement('th');
     headerEl.appendChild(thEl);
-    thEl.textContent = " total";
+    thEl.textContent = " Total";
 
 }
 // random custemer
@@ -111,11 +111,11 @@ function renderFooter() {
 }
 // form handleSubmit
 
-var seattle = new Shop('seattle', 23, 65, 6.3);
-var tokyo = new Shop('tokyo', 3, 24, 1.2);
-var dubai = new Shop('dubai', 11, 38, 3.7);
-var paris = new Shop('paris', 20, 38, 2.3);
-var lima = new Shop('lima', 2, 16, 4.6);
+var seattle = new Shop('Seattle', 23, 65, 6.3);
+var tokyo = new Shop('Tokyo', 3, 24, 1.2);
+var dubai = new Shop('Dubai', 11, 38, 3.7);
+var paris = new Shop('Paris', 20, 38, 2.3);
+var lima = new Shop('Lima', 2, 16, 4.6);
 
 
 headerRender();
