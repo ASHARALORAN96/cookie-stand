@@ -88,7 +88,7 @@ p {
     border-style: solid;
     margin: 30px;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
     
 }
 
@@ -97,10 +97,8 @@ p {
                 border: rgb(15, 15, 15);
                 border-style: solid;
                 text-align: center;
-                font-size: 15px;
-                margin: auto;
+                font-size: 20px;
                 padding: 10px;
-                margin-top: 20px;
                 display: grid;
                 margin-top: 300px;
         }
