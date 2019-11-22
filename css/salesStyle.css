@@ -9,8 +9,8 @@ h1 {
     margin: 30px 30px 30px 30px;
     font: bolder;
     font-size: 90px;
-    background-image:url("http://127.0.0.1:5500/img/cookiess.jpg") ;
- background-size: 50px 50px;;
+    background-image:url(../img/cookiess.jpg) ;
+ /* background-size: 50px 50px;; */
 }
 table {
     width: 85%;
