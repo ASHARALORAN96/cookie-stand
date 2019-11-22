@@ -14,15 +14,15 @@ h1 {
 }
 table {
     width: 85%;
-    height: 20pc;
+    height: 25pc;
     text-align: center;
     border:rgb(85, 37, 37);
     border-style: solid;
-    /* border-radius: 20%; */
     margin: 30px 30px 30px 90px;
     padding: 30px;
     background-color:  rgba(224, 201, 170, 0.918);
 }
+
 table tr {
     margin-bottom: 100px;
     border: solid;
@@ -30,6 +30,7 @@ table tr {
     border-color:rgb(85, 37, 37) ;
 }
 table tr th {
+    padding: 8px;
     margin-top: 30px;
     border: solid;
     text-align: center;
@@ -38,6 +39,7 @@ table tr th {
     font-family: 'Baloo Bhai', cursive;
 }
 table tr td{
+    padding: 10px;
     margin-top: 30px;
     border: solid;
     text-align: center;
