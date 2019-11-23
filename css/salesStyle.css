@@ -12,6 +12,24 @@ h1 {
     background-image:url(../img/cookiess.jpg) ;
  /* background-size: 50px 50px;; */
 }
+a{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 10pc;
+    border:rgb(92, 45, 45);
+    text-align: center ;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 30px;
+    font-style: italic;
+    font: bold;
+    color: rgb(88, 55, 55);
+    border-radius: 40%;
+    background-image:url(../img/cookiess.jpg) ;
+}
+
 table {
     width: 85%;
     height: 25pc;
