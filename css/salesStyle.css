@@ -73,7 +73,7 @@ form{
  border-color:rgb(85, 37, 37) ;
  text-align: left;
  padding: 30px;
- margin: 10px 0px 0px 80px;
+ margin: 10px 0px 5px 90px;
  background: rgba(224, 201, 170, 0.918);
  font-size: 20px;
  font-family: 'Baloo Bhai', cursive;
@@ -84,7 +84,7 @@ legend{
     float: left;
     border: solid;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 17px;
     background:rgb(138, 82, 82);
     color: cornsilk;
 }
